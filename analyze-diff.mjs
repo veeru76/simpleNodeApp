@@ -53,7 +53,7 @@ async function analyzeDiff(diffText) {
     const content = data.choices?.[0]?.message?.content;
 
     if (!content) {
-      console.error("Error: Empty response from OpenAI......");
+      console.error("Error: Empty response from OpenAI.");
       return null;
     }
 
