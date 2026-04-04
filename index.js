@@ -8,6 +8,7 @@ app.use(express.json());
 // Request logger middleware - logs every incoming request
 app.use((req, res, next) => {
   const start = Date.now();
+  console.log("in the middleware")
   const timestamp = new Date().toISOString();
 
   res.on('finish', () => {
