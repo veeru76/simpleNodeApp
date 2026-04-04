@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-console.log('Running tests...');
+console.log('Running tests');
 
 // A very simple test scenario
 try {
